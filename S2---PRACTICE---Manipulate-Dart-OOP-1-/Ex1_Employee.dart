@@ -39,7 +39,7 @@ class Employee {
         _skills = [Skill.FLUTTER, Skill.DART],
         _address = Address(street, city, zipCode as int),
         _yearsOfExperience = yearsOfExperience;
-// getter the value
+// get the value
   String get name => _name;
   double get baseSalary => _baseSalary;
   List<Skill> get skill => _skills;
